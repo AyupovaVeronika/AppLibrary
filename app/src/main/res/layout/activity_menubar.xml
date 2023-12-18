@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/naveHome"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/facebook"
+            android:title="Facebook" />
+
+        <item
+            android:id="@+id/moreapp"
+            android:title="More App" />
+
+        <item
+            android:id="@+id/shareapp"
+            android:title="Share App" />
+    </group>
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+
+        <item android:title="Setting"
+            android:id="@+id/setting"/>
+        <item android:id="@+id/about"
+            android:title="About"/>
+
+
+    </group>
+
+</menu>
